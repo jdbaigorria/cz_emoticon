@@ -6,7 +6,7 @@ with open('README.md') as f:
 setup(
 
     name="cz_emoticon",
-    version="0.1.1",
+    version="0.1.2",
     py_modules=["cz_emoticon"],
     license="MIT",
     long_description=long_description,
