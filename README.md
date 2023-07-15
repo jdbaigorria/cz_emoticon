@@ -35,6 +35,35 @@ project_name: es el nombre de nuestro proyecto, este estara disponible en el cha
 
 support_email: el email de contacto de soporte de nuestra app, para que pueda ser visualizado en el changelog.
 
+## Ejemplos
+
+```
+git cz
+
+Seleccione el tipo de cambio que va a realizar: 
+📝 docs: Cuando solo se modifica documentacion.
+
+🚩 Cual es el alcance de este cambio? (nombre de clase o archivo): (es obligatorio colocar un scope):
+init
+
+✏️ Escriba un resumen breve e imperativo de los cambios en el codigo: (minusculas y sin punto):
+Documentacion inicial del proyecto
+
+📄 Proporcione informacion contextual adicional sobre los cambios de codigo: (pulse [intro] para omitir):
+Se genero la documentacion inicial del proyecto con los standares a usar
+
+🚨 Se trata de un CAMBIO IMPORTANTE? Relacionado con MAJOR en SemVer:
+N
+
+💬 Pie de pagina. Informacion sobre cambios de ultima hora y problemas de referencia que cierra esta confirmación: (pulse [enter] para saltar):
+Ref: PR-123 #43
+
+El commit generado sería:
+📝 docs[init]: Documentacion inicial del proyecto (Ref: PR-123 #43)
+```
+En el ejemplo agregamos tanto el codigo jira como el issue de nuestro git para que el plugin genere automaticamente las urls correspondientes.
+
+
 ## Autor
 
 Javier Baigorria (jdbaigorria@gmail.com)
