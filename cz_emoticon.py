@@ -328,10 +328,6 @@ class EmoticonCz(BaseCommitizen):
         if self.git_repo:
             parsed_message["footer"] = parse_issues(parsed_message["footer"], self.git_repo)
 
-        f = open ('/home/javier/projects/emoticon/holamundo.txt','a')
-        f.write(parsed_message.__repr__() + "\n")
-        f.close()
-
         return parsed_message
     
     def __extract_footer(self, commit: git.GitCommit):
